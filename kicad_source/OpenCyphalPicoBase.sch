@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "OpenCyphalPicoBase"
-Date "2022-06-08"
-Rev "dev_0.1"
+Date "2022-06-10"
+Rev "0.1"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
