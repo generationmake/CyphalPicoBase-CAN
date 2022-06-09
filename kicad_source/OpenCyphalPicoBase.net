@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/OpenCyphalPicoBase/kicad_source/OpenCyphalPicoBase.sch)
-    (date "Do 09 Jun 2022 22:11:06 CEST")
+    (date "Do 09 Jun 2022 23:09:26 CEST")
     (tool "Eeschema 5.1.12-84ad8e8a86~92~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -19,7 +19,7 @@
         (title OpenCyphalPicoBase)
         (company generationmake)
         (rev dev_0.1)
-        (date 2022-06-06)
+        (date 2022-06-09)
         (source mcp2515.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
@@ -178,7 +178,7 @@
       (tstamp 625E2D3C))
     (comp (ref CN1)
       (value RASPBERRYPI_PICO)
-      (footprint MODULE_compute:RASPI_PICO)
+      (footprint MODULE_compute:RASPI_PICO_SOLDER)
       (libsource (lib MODULE_compute) (part RASPBERRYPI_PICO) (description "Raspberry Pi Pico"))
       (sheetpath (names /) (tstamps /))
       (tstamp 629E332F))
