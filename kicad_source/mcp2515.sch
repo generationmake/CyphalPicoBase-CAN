@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "OpenCyphalPicoBase"
-Date "2022-06-06"
+Date "2022-06-09"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""
@@ -666,4 +666,48 @@ Wire Wire Line
 	7700 6150 7700 6100
 Wire Wire Line
 	7700 6150 7900 6150
+$Comp
+L mechanical-connectors:CONN_01X04 CN?
+U 1 1 62A340B9
+P 5900 5500
+AR Path="/624F7A5F/62A340B9" Ref="CN?"  Part="1" 
+AR Path="/5ED92F9C/62A340B9" Ref="CN13"  Part="1" 
+F 0 "CN13" H 5978 5541 50  0000 L CNN
+F 1 "GH_SM04B-GHS-TB" H 5978 5450 50  0000 L CNN
+F 2 "CON_wuerth:WR-TBL_691322310004" H 5900 5500 50  0001 C CNN
+F 3 "" H 5900 5500 50  0000 C CNN
+	1    5900 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5450 5700 5450
+Wire Wire Line
+	4850 5550 5700 5550
+Text Label 5000 5450 0    50   ~ 0
+CANH
+Text Label 5000 5550 0    50   ~ 0
+CANL
+$Comp
+L power-supply:GND #PWR?
+U 1 1 62A341BD
+P 5600 5750
+AR Path="/624F7A5F/62A341BD" Ref="#PWR?"  Part="1" 
+AR Path="/5ED92F9C/62A341BD" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 5600 5500 50  0001 C CNN
+F 1 "GND" H 5605 5577 50  0000 C CNN
+F 2 "" H 5600 5750 50  0000 C CNN
+F 3 "" H 5600 5750 50  0000 C CNN
+	1    5600 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5650 5600 5650
+Wire Wire Line
+	5600 5650 5600 5750
+Text Notes 4950 5250 0    50   ~ 0
+screw terminals
+Text Label 5000 5350 0    50   ~ 0
+CANVCC
+Wire Wire Line
+	4850 5350 5700 5350
 $EndSCHEMATC
