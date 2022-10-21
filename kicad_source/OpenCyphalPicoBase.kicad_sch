@@ -2820,7 +2820,7 @@
     (uuid 00000000-0000-0000-0000-0000629e332f)
     (property "Reference" "CN1" (id 0) (at 172.72 33.655 0))
     (property "Value" "RASPBERRYPI_PICO" (id 1) (at 172.72 35.9664 0))
-    (property "Footprint" "MODULE_compute:RASPI_PICO_SOLDER" (id 2) (at 172.72 63.5 0)
+    (property "Footprint" "generationmake:RASPI_PICO_SOLDER_Kopie" (id 2) (at 172.72 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 172.72 63.5 0)
@@ -3684,7 +3684,7 @@
       (reference "C10") (unit 1) (value "100nF") (footprint "capacitors:C_0603")
     )
     (path "/00000000-0000-0000-0000-0000629e332f"
-      (reference "CN1") (unit 1) (value "RASPBERRYPI_PICO") (footprint "MODULE_compute:RASPI_PICO_SOLDER")
+      (reference "CN1") (unit 1) (value "RASPBERRYPI_PICO") (footprint "generationmake:RASPI_PICO_SOLDER_Kopie")
     )
     (path "/00000000-0000-0000-0000-00006250ded9"
       (reference "CN2") (unit 1) (value "SM04B-SRSS-TB") (footprint "connectors_JST_SH:Connectors_JST_SM04B-SRSS-TB")
