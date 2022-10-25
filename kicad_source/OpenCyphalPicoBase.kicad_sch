@@ -3815,6 +3815,9 @@
     (path "/00000000-0000-0000-0000-00006256c144"
       (reference "D5") (unit 1) (value "LED red") (footprint "LED_SMD:LED_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00005ed92f9c/b9849e65-1d07-4975-a6c6-58bb911480e0"
+      (reference "F1") (unit 1) (value "nanoSMDC050F") (footprint "Fuse:Fuse_1206_3216Metric")
+    )
     (path "/00000000-0000-0000-0000-0000625bb6fe"
       (reference "L1") (unit 1) (value "Label") (footprint "labels:generationmake_small_silk")
     )
