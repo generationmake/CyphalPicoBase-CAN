@@ -3,6 +3,8 @@ Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY 
 
 ![OpenCyphalPicoBase rendering](docs/images/OpenCyphalPicoBase_rendering.png)
 
+![OpenCyphalPicoBase rendering back side](docs/images/OpenCyphalPicoBase_rendering_back.png)
+
 ## SOftware
 
 https://github.com/107-systems/l3xz-fw_aux-controller
