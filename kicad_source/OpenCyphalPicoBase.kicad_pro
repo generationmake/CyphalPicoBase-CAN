@@ -385,7 +385,7 @@
       "idf": "",
       "netlist": "OpenCyphalPicoBase.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../OpenCyphalPicoBase.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
