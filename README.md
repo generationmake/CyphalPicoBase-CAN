@@ -56,6 +56,12 @@ https://github.com/107-systems/l3xz-fw_aux-controller
 | 39      | VSYS         |               |                                  |
 | 40      | VBUS         | 5V-rail       | supply voltage for board         |
 
+## enclosure
+
+There exists a 3D printable enclosure to encapsulate the PCB.
+
+![OpenCyphalPicoBase enclosure](docs/images/OpenCyphalPicoBase_enclosure.png)
+
 ## PCB
 
 ### Top
