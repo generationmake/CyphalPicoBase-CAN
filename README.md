@@ -1,15 +1,20 @@
-# OpenCyphalPicoBase
+<a href="https://opencyphal.org/"><img align="right" src="https://raw.githubusercontent.com/107-systems/.github/main/logo/opencyphal.svg" width="25%"></a>
+OpenCyphalPicoBase
+==================
 Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY Micro
 
-![OpenCyphalPicoBase rendering](docs/images/OpenCyphalPicoBase_rendering.png)
+<p align="center">
+  <img src="docs/images/OpenCyphalPicoBase_rendering.png" width="50%">
+</p>
 
-![OpenCyphalPicoBase rendering back side](docs/images/OpenCyphalPicoBase_rendering_back.png)
+<p align="center">
+  <img src="docs/images/OpenCyphalPicoBase_rendering_back.png" width="50%">
+</p>
 
-## SOftware
+## Firmware
+* [OpenCyphalPicoBase-firmware](https://github.com/107-systems/OpenCyphalPicoBase-firmware)
 
-https://github.com/107-systems/l3xz-fw_aux-controller
-
-## pin usage
+## Pin Usage
 
 ### Raspberry Pi Pico 
 
@@ -57,11 +62,12 @@ https://github.com/107-systems/l3xz-fw_aux-controller
 | 40      | VBUS         | 5V-rail       | supply voltage for board         |
 
 ## PCB
-
 ### Top
-
-![OpenCyphalPicoBase PCB top](docs/images/OpenCyphalPicoBase_top.png)
+<p align="center">
+  <img src="docs/images/OpenCyphalPicoBase_rendering_back.png" width="50%">
+</p>
 
 ### Bottom
-
-![OpenCyphalPicoBase PCB bot](docs/images/OpenCyphalPicoBase_bot.png)
+<p align="center">
+  <img src="docs/images/OpenCyphalPicoBase_bot.png" width="50%">
+</p>
