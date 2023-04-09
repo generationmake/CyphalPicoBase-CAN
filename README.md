@@ -61,6 +61,12 @@ Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY 
 | 39      | VSYS         |               |                                  |
 | 40      | VBUS         | 5V-rail       | supply voltage for board         |
 
+## enclosure
+
+There exists a 3D printable enclosure to encapsulate the PCB.
+
+![OpenCyphalPicoBase enclosure](docs/images/OpenCyphalPicoBase_enclosure.png)
+
 ## PCB
 ### Top
 <p align="center">
