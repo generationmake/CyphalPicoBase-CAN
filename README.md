@@ -70,7 +70,7 @@ There exists a 3D printable enclosure to encapsulate the PCB.
 ## PCB
 ### Top
 <p align="center">
-  <img src="docs/images/OpenCyphalPicoBase_rendering_back.png" width="50%">
+  <img src="docs/images/OpenCyphalPicoBase_top.png" width="50%">
 </p>
 
 ### Bottom
