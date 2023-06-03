@@ -63,22 +63,6 @@ Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY 
 
 ## Pinout
 
-### CN1 and CN2
-
-This is a regular 0.1-inch pin header.
-
-| pin number | signal on CN1 | signal on CN2|
-|:----------:|:-------------:|:------------:|
-| 1          | VCC           | VCC          |
-| 2          | GND           | GND          |
-| 3          | I2C_SDA       | I2C_SDA      |
-| 4          | I2C_SCL       | I2C_SCL      |
-| 5          | INT           | INT          |
-| 6          | ENABLE        | GPIO0        |
-| 7          | not available | GPIO1        |
-
-Several TMF882xBreakout boards can be used by connecting CN1 to CN2 of the previous board. GPIO0 is used to enabled the following TMF882x and thus giving the possibility to change the I2C address of each device one after another.
-
 ### I2C (CN2)
 
 compatible to the Sparkfun qwiic standard (https://www.sparkfun.com/qwiic). JST SH 1mm 4-pin.
@@ -121,7 +105,7 @@ UCANPHY Micro connector, according to the UCANPHY_Specification (https://forum.o
 | 1          | +5V           |
 | 2          | GND           |
 
-This connector feeds power to the servo connector and the neopixel connector if power supply over the CAN connector is not sufficicant.
+This connector feeds power to the servo connector (CN7) and the neopixel connector (CN12) if power supply over the CAN connector is not sufficicant.
 
 ### servo connector (CN7)
 
