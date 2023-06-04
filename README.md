@@ -11,12 +11,23 @@ Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY 
   <img src="docs/images/OpenCyphalPicoBase_rendering_back.png" width="50%">
 </p>
 
+## Description
+
+The OpenCyphalPicoBase provides the following functions:
+* CAN connectivity to a OpenCyphal CAN bus using a Microchip MCP2515 CAN controller ([datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf))
+* Onboard I2C EEPROM to store settings
+* measurement of CAN bus voltage using GP26
+* onboard temperature measurement using the internal temperature sensor of the Raspberry Pi Pico
+* two status LEDs (D4 and D5)
+* Raspberry Pi Pico directly mounted on bottom layer
+* connectors to several external functions (see list below)
+
 ## Firmware
-* [OpenCyphalPicoBase-firmware](https://github.com/107-systems/OpenCyphalPicoBase-firmware)
+* [OpenCyphalPicoBase-firmware](https://github.com/107-systems/OpenCyphalPicoBase-firmware): This is the default firmware for this board. It enables all basic functions
 
 ## Pin Usage
 
-### Raspberry Pi Pico 
+### Raspberry Pi Pico (CN1)
 
 | **Pin** | **Pin Name** | **Signal**    | **Description**                  |
 |:-------:|:------------:|:-------------:|:--------------------------------:|
@@ -60,6 +71,115 @@ Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY 
 | 38      | GND          | GND           |                                  |
 | 39      | VSYS         |               |                                  |
 | 40      | VBUS         | 5V-rail       | supply voltage for board         |
+
+## Pinout
+
+### I2C (CN2)
+
+compatible to the Sparkfun qwiic standard (https://www.sparkfun.com/qwiic). JST SH 1mm 4-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | GND           |
+| 2          | +3V3          |
+| 3          | I2C_SDA       |
+| 4          | I2C_SCL       |
+
+### serial (CN3)
+
+JST SH 1mm 4-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | GND           |
+| 2          | +3V3          |
+| 3          | SER_TX        |
+| 4          | SER_RX        |
+
+### CAN (CN4 and CN5)
+
+UCANPHY Micro connector, according to the UCANPHY_Specification (https://forum.opencyphal.org/t/cyphal-can-physical-layer-specification-v1-0/1471). JST GH 1.25mm 4-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | +5V           |
+| 2          | CANH          |
+| 3          | CANL          |
+| 4          | GND           |
+
+### power input (CN6)
+
+3.81 mm screw terminal 2-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | +5V           |
+| 2          | GND           |
+
+This connector feeds power to the servo connector (CN7) and the neopixel connector (CN12) if power supply over the CAN connector is not sufficicant.
+
+### servo connector (CN7)
+
+This is a regular 0.1-inch pin header.
+
+Standard RC servos can be directly plugged into this connector
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | servo0        |
+| 2          | servo1        |
+| 3          | +5V           |
+| 4          | +5V           |
+| 5          | GND           |
+| 6          | GND           |
+
+### input/output connector (CN8)
+
+This is a regular 0.1-inch pin header.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | ANALOG_INPUT1 |
+| 2          | GND           |
+| 3          | ANALOG_INPUT0 |
+| 4          | GND           |
+| 5          | INPUT0        |
+| 6          | GND           |
+| 7          | INPUT1        |
+| 8          | GND           |
+| 9          | INPUT2        |
+| 10         | GND           |
+| 11         | INPUT3        |
+| 12         | GND           |
+| 13         | OUTPUT0       |
+| 14         | GND           |
+| 15         | OUTPUT1       |
+| 16         | GND           |
+
+### additional connector (CN11)
+
+This is a regular 0.1-inch pin header. 
+
+Standard RC servos can be directly plugged into this connector
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | neopixel      |
+| 2          | reserved      |
+| 3          | +5V           |
+| 4          | +3V3          |
+| 5          | GND           |
+| 6          | GND           |
+
+### neopixel connector (CN12)
+
+connector for Adafruit Neopixel RGB leds (https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels). JST PH 2mm 3-pin.
+
+| pin number | signal        |
+|:----------:|:-------------:|
+| 1          | neopixel      |
+| 2          | +5V           |
+| 3          | GND           |
 
 ## enclosure
 
