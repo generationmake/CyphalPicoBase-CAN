@@ -11,8 +11,19 @@ Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY 
   <img src="docs/images/OpenCyphalPicoBase_rendering_back.png" width="50%">
 </p>
 
+## Description
+
+The OpenCyphalPicoBase provides the following functions:
+* CAN connectivity to a OpenCyphal CAN bus using a Microchip MCP2515 CAN controller ([datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf))
+* Onboard I2C EEPROM to store settings
+* measurement of CAN bus voltage using GP26
+* onboard temperature measurement using the internal temperature sensor of the Raspberry Pi Pico
+* two status LEDs (D4 and D5)
+* Raspberry Pi Pico directly mounted on bottom layer
+* connectors to several external functions (see list below)
+
 ## Firmware
-* [OpenCyphalPicoBase-firmware](https://github.com/107-systems/OpenCyphalPicoBase-firmware)
+* [OpenCyphalPicoBase-firmware](https://github.com/107-systems/OpenCyphalPicoBase-firmware): This is the default firmware for this board. It enables all basic functions
 
 ## Pin Usage
 
