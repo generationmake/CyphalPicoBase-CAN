@@ -1305,10 +1305,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 08427762-3b9f-4da6-a0d6-bcd3d28b573a)
   )
-  (wire (pts (xy 168.91 152.4) (xy 168.91 153.67))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 08e5adec-9f18-4642-b994-ddfb539e938d)
-  )
   (wire (pts (xy 16.51 68.58) (xy 19.05 68.58))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 09c9e12e-9108-4c1b-b179-f97a762af172)
@@ -1932,10 +1928,6 @@
   (wire (pts (xy 83.82 73.66) (xy 83.82 55.88))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bdfec800-f591-43e7-950b-0cf92a74fe66)
-  )
-  (wire (pts (xy 168.91 158.75) (xy 168.91 160.02))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid be0f5f1d-122c-4dda-a22b-a8b5415b9a0f)
   )
   (wire (pts (xy 53.34 60.96) (xy 71.12 60.96))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3699,28 +3691,6 @@
     (pin "1" (uuid 45a7c47a-2a2f-4b57-b070-75f218aaf727))
   )
 
-  (symbol (lib_id "Device:C_Polarized_Small") (at 168.91 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 0c3f626b-e5ab-4546-95f5-05afc50b086b)
-    (property "Reference" "C12" (id 0) (at 171.45 154.3938 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100 uF / 6,3 V" (id 1) (at 171.45 156.9338 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3" (id 2) (at 168.91 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 168.91 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C3001204" (id 4) (at 168.91 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a734ae08-5f9e-44e7-bcbf-a4d58476b4f9))
-    (pin "2" (uuid 02c90f85-18be-49bd-b3ac-53a14c86ef41))
-  )
-
   (symbol (lib_id "OpenCyphalPicoBase-rescue:GND-power-supply") (at 168.91 139.7 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 19a7c858-5698-4445-8d4f-5fce6b87fd79)
@@ -3731,18 +3701,6 @@
     (property "Footprint" "" (id 2) (at 168.91 139.7 0))
     (property "Datasheet" "" (id 3) (at 168.91 139.7 0))
     (pin "1" (uuid db137477-340b-4908-806c-e134123f261e))
-  )
-
-  (symbol (lib_id "OpenCyphalPicoBase-rescue:+BATT-power-supply") (at 168.91 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 1b9ed98e-9794-43b6-9513-6b70efa279c6)
-    (property "Reference" "#PWR052" (id 0) (at 168.91 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+BATT" (id 1) (at 169.291 148.0058 0))
-    (property "Footprint" "" (id 2) (at 168.91 152.4 0))
-    (property "Datasheet" "" (id 3) (at 168.91 152.4 0))
-    (pin "1" (uuid be410b89-a000-432e-bfaf-1babc5e88e9f))
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x13_Odd_Even") (at 26.67 71.12 0) (mirror y) (unit 1)
@@ -3850,18 +3808,6 @@
     (property "Footprint" "" (id 2) (at 50.8 78.74 0))
     (property "Datasheet" "" (id 3) (at 50.8 78.74 0))
     (pin "1" (uuid 3e0a8a0b-d73a-421f-89bb-7e7fa837c30a))
-  )
-
-  (symbol (lib_id "OpenCyphalPicoBase-rescue:GND-power-supply") (at 168.91 160.02 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid c3979e04-2e0c-4de7-a444-c8166b6cadd1)
-    (property "Reference" "#PWR053" (id 0) (at 168.91 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 169.037 164.4142 0))
-    (property "Footprint" "" (id 2) (at 168.91 160.02 0))
-    (property "Datasheet" "" (id 3) (at 168.91 160.02 0))
-    (pin "1" (uuid 2c8e72a0-e4c1-4414-89cf-f398c799f047))
   )
 
   (symbol (lib_id "OpenCyphalPicoBase-rescue:+BATT-power-supply") (at 31.75 53.34 0) (unit 1)
@@ -4009,6 +3955,9 @@
     (path "/00000000-0000-0000-0000-00006250e35f"
       (reference "#PWR019") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005ed92f9c/1916be01-9561-4e8d-aead-26330711ff23"
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005ed92f9c/00000000-0000-0000-0000-00005eda8fcf"
       (reference "#PWR022") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -4087,12 +4036,6 @@
     (path "/00000000-0000-0000-0000-00006256c3ac"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1b9ed98e-9794-43b6-9513-6b70efa279c6"
-      (reference "#PWR052") (unit 1) (value "+BATT") (footprint "")
-    )
-    (path "/c3979e04-2e0c-4de7-a444-c8166b6cadd1"
-      (reference "#PWR053") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000062c052ff"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
@@ -4153,9 +4096,6 @@
     (path "/d51d71ed-f6c3-4dba-8462-257557601dd4"
       (reference "C11") (unit 1) (value "100 uF / 6,3 V") (footprint "Capacitor_SMD:CP_Elec_5x5.3")
     )
-    (path "/0c3f626b-e5ab-4546-95f5-05afc50b086b"
-      (reference "C12") (unit 1) (value "100 uF / 6,3 V") (footprint "Capacitor_SMD:CP_Elec_5x5.3")
-    )
     (path "/00000000-0000-0000-0000-0000629e332f"
       (reference "CN1") (unit 1) (value "RASPBERRYPI_PICO") (footprint "generationmake:RASPI_PICO_SOLDER_Kopie")
     )
@@ -4179,6 +4119,9 @@
     )
     (path "/551049a7-4d09-455c-ac39-872acb209e74"
       (reference "CN12") (unit 1) (value "S3B-PH-SM4-TB") (footprint "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00005ed92f9c/1c7e72c3-a858-4ad7-b8a5-648cc04b24c6"
+      (reference "D1") (unit 1) (value "NUP2105L") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005ed92f9c/00000000-0000-0000-0000-000062500ccf"
       (reference "D2") (unit 1) (value "MBR0530T") (footprint "Diode_SMD:D_SOD-123")
