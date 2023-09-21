@@ -1,19 +1,19 @@
 <a href="https://opencyphal.org/"><img align="right" src="https://raw.githubusercontent.com/107-systems/.github/main/logo/opencyphal.svg" width="25%"></a>
-OpenCyphalPicoBase
+CyphalPicoBase/CAN
 ==================
 Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY Micro
 
 <p align="center">
-  <img src="docs/images/OpenCyphalPicoBase_rendering.png" width="50%">
+  <img src="docs/images/CyphalPicoBase-CAN_rendering.png" width="50%">
 </p>
 
 <p align="center">
-  <img src="docs/images/OpenCyphalPicoBase_rendering_back.png" width="50%">
+  <img src="docs/images/CyphalPicoBase-CAN_rendering_back.png" width="50%">
 </p>
 
 ## Description
 
-The OpenCyphalPicoBase provides the following functions:
+The CyphalPicoBase/CAN provides the following functions:
 * CAN connectivity to a OpenCyphal CAN bus using a Microchip MCP2515 CAN controller ([datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf))
 * Onboard I2C EEPROM to store settings
 * measurement of CAN bus voltage using GP26
@@ -23,7 +23,7 @@ The OpenCyphalPicoBase provides the following functions:
 * connectors to several external functions (see list below)
 
 ## Firmware
-* [OpenCyphalPicoBase-firmware](https://github.com/107-systems/OpenCyphalPicoBase-firmware): This is the default firmware for this board. It enables all basic functions
+* [CyphalPicoBase-CAN-firmware](https://github.com/107-systems/CyphalPicoBase-CAN-firmware): This is the default firmware for this board. It enables all basic functions
 
 ## Pin Usage
 
@@ -171,15 +171,15 @@ connector for Adafruit Neopixel RGB leds (https://learn.adafruit.com/adafruit-ne
 
 There exists a 3D printable enclosure to encapsulate the PCB.
 
-![OpenCyphalPicoBase enclosure](docs/images/OpenCyphalPicoBase_enclosure.png)
+![CyphalPicoBase-CAN enclosure](docs/images/CyphalPicoBase-CAN_enclosure.png)
 
 ## PCB
 ### Top
 <p align="center">
-  <img src="docs/images/OpenCyphalPicoBase_top.png" width="50%">
+  <img src="docs/images/CyphalPicoBase-CAN_top.png" width="50%">
 </p>
 
 ### Bottom
 <p align="center">
-  <img src="docs/images/OpenCyphalPicoBase_bot.png" width="50%">
+  <img src="docs/images/CyphalPicoBase-CAN_bot.png" width="50%">
 </p>
