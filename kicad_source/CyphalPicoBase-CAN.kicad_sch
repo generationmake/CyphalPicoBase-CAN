@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "OpenCyphalPicoBase")
-    (date "2023-08-11")
+    (title "CyphalPicoBase/CAN")
+    (date "2023-09-21")
     (rev "0.3")
     (company "generationmake")
   )
