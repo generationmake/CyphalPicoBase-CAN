@@ -1,7 +1,6 @@
 Comment,Designator,Footprint,LCSC
 "100nF","C1,C2,C3,C4,C5,C6,C9,C10","Capacitor_SMD:C_0603_1608Metric","C14663"
-"100 uF / 6,3 V","C11,C12","Capacitor_SMD:CP_Elec_5x5.3","C3001204"
-"10pF","C7,C8","Capacitor_SMD:C_0603_1608Metric","C1634"
+"100 uF / 6,3 V","C11","Capacitor_SMD:CP_Elec_5x5.3","C3001204"
 "S3B-PH-SM4-TB","CN12","Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal","C265101"
 "SM04B-SRSS-TB","CN2,CN3","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","C160404"
 "SM04B-GHS-TB","CN4,CN5","Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal","C189895"

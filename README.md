@@ -107,17 +107,6 @@ UCANPHY Micro connector, according to the UCANPHY_Specification (https://forum.o
 | 3          | CANL          |
 | 4          | GND           |
 
-### power input (CN6)
-
-3.81 mm screw terminal 2-pin.
-
-| pin number | signal        |
-|:----------:|:-------------:|
-| 1          | +5V           |
-| 2          | GND           |
-
-This connector feeds power to the servo connector (CN7) and the neopixel connector (CN12) if power supply over the CAN connector is not sufficicant.
-
 ### servo connector (CN7)
 
 This is a regular 0.1-inch pin header.
@@ -139,37 +128,34 @@ This is a regular 0.1-inch pin header.
 
 | pin number | signal        |
 |:----------:|:-------------:|
-| 1          | ANALOG_INPUT1 |
+| 1          | +5V           |
 | 2          | GND           |
-| 3          | ANALOG_INPUT0 |
+| 3          | ANALOG_INPUT1 |
 | 4          | GND           |
-| 5          | INPUT0        |
+| 5          | ANALOG_INPUT0 |
 | 6          | GND           |
-| 7          | INPUT1        |
+| 7          | INPUT0        |
 | 8          | GND           |
-| 9          | INPUT2        |
+| 9          | INPUT1        |
 | 10         | GND           |
-| 11         | INPUT3        |
+| 11         | INPUT2        |
 | 12         | GND           |
-| 13         | OUTPUT0       |
+| 13         | INPUT3        |
 | 14         | GND           |
-| 15         | OUTPUT1       |
+| 15         | OUTPUT0       |
 | 16         | GND           |
+| 17         | OUTPUT1       |
+| 18         | GND           |
+| 19         | +5V           |
+| 20         | GND           |
+| 21         | +3.3V         |
+| 22         | GND           |
+| 23         | RESERVED0     |
+| 24         | GND           |
+| 25         | NEOPIXEL      |
+| 26         | GND           |
 
-### additional connector (CN11)
-
-This is a regular 0.1-inch pin header. 
-
-Standard RC servos can be directly plugged into this connector
-
-| pin number | signal        |
-|:----------:|:-------------:|
-| 1          | neopixel      |
-| 2          | reserved      |
-| 3          | +5V           |
-| 4          | +3V3          |
-| 5          | GND           |
-| 6          | GND           |
++5V can be fed over this connector to the servo connector (CN7) and the neopixel connector (CN12) if power supply over the CAN connector is not sufficicant.
 
 ### neopixel connector (CN12)
 
