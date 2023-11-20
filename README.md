@@ -25,7 +25,11 @@ The CyphalPicoBase/CAN provides the following functions:
 ## Firmware
 * [CyphalPicoBase-CAN-firmware](https://github.com/107-systems/CyphalPicoBase-CAN-firmware): This is the default firmware for this board. It enables all basic functions
 
-## Pin Usage
+## Pin Usage and connectors
+
+<p align="center">
+  <img src="docs/images/CyphalPicoBase-CAN_connectors.png" width="50%">
+</p>
 
 ### Raspberry Pi Pico (CN1)
 

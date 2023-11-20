@@ -2586,7 +2586,7 @@
     (property "Value" "SM04B-SRSS-TB" (id 1) (at 126.4412 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (id 2) (at 124.46 135.89 0)
+    (property "Footprint" "generationmake:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (id 2) (at 124.46 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 124.46 135.89 0)
@@ -2711,7 +2711,7 @@
     (property "Value" "SM04B-SRSS-TB" (id 1) (at 55.3212 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (id 2) (at 53.34 170.18 0)
+    (property "Footprint" "generationmake:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (id 2) (at 53.34 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 53.34 170.18 0)
@@ -3747,7 +3747,7 @@
     (uuid 551049a7-4d09-455c-ac39-872acb209e74)
     (property "Reference" "CN12" (id 0) (at 153.67 87.63 0))
     (property "Value" "S3B-PH-SM4-TB" (id 1) (at 153.67 90.17 0))
-    (property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" (id 2) (at 153.67 96.52 0)
+    (property "Footprint" "generationmake:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" (id 2) (at 153.67 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 153.67 96.52 0)
@@ -4117,10 +4117,10 @@
       (reference "CN1") (unit 1) (value "RASPBERRYPI_PICO") (footprint "generationmake:RASPI_PICO_SOLDER_Kopie")
     )
     (path "/00000000-0000-0000-0000-00006250ded9"
-      (reference "CN2") (unit 1) (value "SM04B-SRSS-TB") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
+      (reference "CN2") (unit 1) (value "SM04B-SRSS-TB") (footprint "generationmake:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006250779d"
-      (reference "CN3") (unit 1) (value "SM04B-SRSS-TB") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
+      (reference "CN3") (unit 1) (value "SM04B-SRSS-TB") (footprint "generationmake:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005ed92f9c/00000000-0000-0000-0000-000062500ca8"
       (reference "CN4") (unit 1) (value "SM04B-GHS-TB") (footprint "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal")
@@ -4135,7 +4135,7 @@
       (reference "CN8") (unit 1) (value "DNI") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical")
     )
     (path "/551049a7-4d09-455c-ac39-872acb209e74"
-      (reference "CN12") (unit 1) (value "S3B-PH-SM4-TB") (footprint "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal")
+      (reference "CN12") (unit 1) (value "S3B-PH-SM4-TB") (footprint "generationmake:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005ed92f9c/1c7e72c3-a858-4ad7-b8a5-648cc04b24c6"
       (reference "D1") (unit 1) (value "DNI") (footprint "Package_TO_SOT_SMD:SOT-23")

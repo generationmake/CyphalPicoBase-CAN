@@ -351,7 +351,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OpenCyphalPicoBase.kicad_pro",
+    "filename": "CyphalPicoBase-CAN.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -385,7 +385,7 @@
       "idf": "",
       "netlist": "OpenCyphalPicoBase.net",
       "specctra_dsn": "",
-      "step": "../OpenCyphalPicoBase.step",
+      "step": "../CyphalPicoBase-CAN.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
