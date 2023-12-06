@@ -1,7 +1,9 @@
 <a href="https://opencyphal.org/"><img align="right" src="https://raw.githubusercontent.com/107-systems/.github/main/logo/opencyphal.svg" width="25%"></a>
 CyphalPicoBase/CAN
 ==================
-Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY Micro
+Board for the Raspberry Pi Pico to connect via CAN using OpenCyphal and UCANPHY Micro.
+
+You can buy one [here](https://cyphal.store/products/lxrobotics-cyphalpicobase-can) 💸.
 
 <p align="center">
   <img src="docs/images/CyphalPicoBase-CAN_rendering.png" width="50%">
